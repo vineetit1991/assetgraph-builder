@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var chalk = require('chalk'),
-    parseExpression = require('assetgraph/lib/parseExpression'),
+    parseExpression = require('one-assetgraph/lib/parseExpression'),
     optimist = require('optimist')
         .usage('$0 --root <inputRootDirectory> --outroot <dir> [options] <htmlFile(s)>')
         .wrap(72)
